@@ -6,7 +6,7 @@ import Order from "./components/order";
 
 export default function App() {
   // return <Login></Login>;
-  // return <AddImage></AddImage>;
+  return <AddImage></AddImage>;
   // return <PasswordGenerator></PasswordGenerator>;
-  return <Order></Order>;
+  // return <Order></Order>;
 }

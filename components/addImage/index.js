@@ -1,7 +1,5 @@
 import { View, Text, TextInput, Pressable, Image } from "react-native";
 import Icon from "react-native-vector-icons/FontAwesome";
-import React, { useState } from "react";
-
 import { styles } from "./style";
 export default function AddImage() {
   return (
@@ -56,18 +54,16 @@ export default function AddImage() {
           marginBottom: "10px",
         }}
       >
-        <Input name>
-          <Icon name="camera" size={35} color="black" />
-          <Text
-            style={{
-              fontFamily: "Roboto",
-              fontSize: "18px",
-              fontWeight: "700",
-            }}
-          >
-            Thêm hình ảnh
-          </Text>
-        </Input>
+        <Icon name="camera" size={35} color="black" />
+        <Text
+          style={{
+            fontFamily: "Roboto",
+            fontSize: "18px",
+            fontWeight: "700",
+          }}
+        >
+          Thêm hình ảnh
+        </Text>
       </View>
       <View
         style={{
