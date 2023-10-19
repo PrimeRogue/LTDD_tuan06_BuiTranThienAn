@@ -1,12 +1,4 @@
-import { StatusBar } from "expo-status-bar";
-import Login from "./components/login";
-import AddImage from "./components/addImage";
-import PasswordGenerator from "./components/passwordGenerator";
-import Order from "./components/order";
-
+import AppNavigator from "./appNavigator";
 export default function App() {
-  // return <Login></Login>;
-  return <AddImage></AddImage>;
-  // return <PasswordGenerator></PasswordGenerator>;
-  // return <Order></Order>;
+  return <AppNavigator />;
 }
