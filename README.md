@@ -1,6 +1,7 @@
 # LTDD_tuan06_BuiTranThienAn
 # 1. Main Screen
-![Main Screen](demos/1.png)
+![](demos/1.PNG)
 
 # 2. Pick Color
-![Pick Color](demos/2.png)
+![](demos/2.PNG)
+
